@@ -8,6 +8,11 @@
 - Dark Blue: hsl(213, 19%, 18%)
 - Very Dark Blue: hsl(216, 12%, 8%) */
 
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
 
 body {
     background-color: hsl(216, 12%, 8%);
@@ -22,7 +27,7 @@ body {
         bottom: 0px;
         left: 0px;
     }
-    /* .box-center {
+     /*.box-center {
         border-radius: 15px;
         width: 300px;
         height: 300px;
@@ -32,8 +37,8 @@ body {
     } */
     .center {
         border-radius: 15px;
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
         /* position: relative; */
         background-color: hsl(213, 19%, 18%);
         text-align: start;
@@ -43,6 +48,18 @@ body {
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
+      }
+      .center button{
+              font-family: 'Overpass', sans-serif;
+        font-weight: 700;
+          border: none;
+          margin-left: 10%;
+          width: 80% ;
+          height: 35px;
+          border-radius: 20px;
+          background-color: hsl(25, 97%, 53%);
+          text-transform: uppercase;
+          color: hsl(0, 0%, 100%) ;
       }
     .vertical-center {
         margin: 0;
@@ -56,28 +73,63 @@ body {
         position: absolute;
     }
     img {
-        height: 10px;
-        width: 10px;
+        height: 20px;
+        width: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+     
+
+    }
+    .star{
         border-radius: 50%;
+        box-sizing: border-box;
+        background-color:hsl(210, 4%, 21%);
+        opacity: 1;
+        margin-left: 10%;
+        width: 40px;
+        height: 40px;
+        margin-top: 5%;
+    
     }
     .rating {
-        height: 170px;
-        width: 170px;
+        height: 50px;
+        width: 80%;
+        margin-left: 10%;
         display: flex;
         justify-content: space-between;
+        padding-top: 10%;
+        margin-bottom: 10% ;
     }
     .numberCircle {
         border-radius: 50%;
         width: 36px;
         height: 36px;
+        color: hsl(217, 12%, 63%);
         padding: 2px;
-
-        background: hsl(216, 12%, 54%);
-        border: 0px solid hsl(216, 12%, 54%);
-        /* color: hsl(216, 12%, 54%); */
-        text-align: center;
-
+        box-sizing: border-box;
+        background-color:hsl(210, 4%, 21%);
+        border: none;
+        font-family: 'Overpass', sans-serif;
+        padding-left: 4%;
+        padding-top: 3%;
+        
         /* font: 32px Arial, sans-serif; */
+    }
+    
+    .heading{
+        margin-left: 10%;
+        color: hsl(0, 0%, 100%);
+        font-family: 'Overpass', sans-serif;
+        font-weight: 700;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        
+    }
+    p{
+        margin-left: 10%;
+        font-family: 'Overpass', sans-serif;
+        font-weight: 400;
+        color:hsl(217, 12%, 63%) ;
     }
     /* span {
         
